@@ -414,7 +414,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📝 Message from Me(Developer)
+## Message from Me(Developer)
 
 1. **Primary File:** `mock_demo.py` contains complete working implementation
 2. **No External Dependencies Required:** Mock version runs standalone
@@ -424,12 +424,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🔒 Security
-
-- API keys stored in `.env` (excluded from git via `.gitignore`)
-- No hardcoded credentials
-- Environment variables for sensitive data
-- Universal provider support prevents vendor lock-in
 
 ---
 
