@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Assignment Context
+## Assignment Context
 
 This prototype implements an LLM-assisted regulatory reporting assistant that:
 - **Parses natural language queries** about capital reporting scenarios
@@ -29,7 +29,7 @@ This prototype implements an LLM-assisted regulatory reporting assistant that:
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ **Natural Language Processing** - Convert scenarios to structured data
 - ✅ **Pydantic Schemas** - Type-safe COREP report structures
@@ -41,7 +41,7 @@ This prototype implements an LLM-assisted regulatory reporting assistant that:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Mock Demo (Recommended for Assignment Review)
 
@@ -99,7 +99,7 @@ python corep_assistant.py
 
 ---
 
-## 📚 Regulatory Sources
+## Regulatory Sources
 
 This prototype references the following publicly available regulatory documents:
 
@@ -132,7 +132,7 @@ Original PDF documents are **not included** in this submission due to copyright/
 
 ---
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### Basic Usage (Mock Version)
 
@@ -193,7 +193,7 @@ print(assistant.generate_template_view(output))
 
 ---
 
-## 📊 Output Format
+## Output Format
 
 ### Structured JSON Report (`scenario_1_output.json`)
 
@@ -265,7 +265,7 @@ VALIDATION STATUS: ✓ PASSED
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Query (Natural Language)
@@ -297,7 +297,7 @@ COREPTemplateOutput (Final Result)
 
 ---
 
-## ✅ Validation Rules
+## Validation Rules
 
 The system validates reports against CRR requirements:
 
@@ -311,7 +311,7 @@ The system validates reports against CRR requirements:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 corep-assistant/
@@ -332,7 +332,7 @@ corep-assistant/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables (.env)
 
@@ -359,7 +359,7 @@ LLM_BASE_URL=<optional>    # Custom endpoint (for Azure, local models, etc.)
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 pdfplumber>=0.11.0      # PDF text extraction
@@ -378,7 +378,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🎓 Assignment Demonstration
+## Assignment Demonstration
 
 ### Key Capabilities Demonstrated:
 
@@ -414,7 +414,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📝 Notes for Graders
+## 📝 Message from Me(Developer)
 
 1. **Primary File:** `mock_demo.py` contains complete working implementation
 2. **No External Dependencies Required:** Mock version runs standalone
